@@ -12,7 +12,7 @@ import Footer from '../../components/Footer'
 
 import { getAuthPersonInfo, requestTokenWithAuthCode, sendTokenToServer } from '../../utils/oAuthHandler'
 import { LoadingIcon } from '../../components/Loading'
-import { getAccessToken } from '../api'  // 导入getAccessToken函数
+import { getAccessToken } from '../api'
 
 export async function getServerSideProps({ query, locale }) {
   const { authCode } = query
